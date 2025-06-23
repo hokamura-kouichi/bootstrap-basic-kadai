@@ -44,6 +44,13 @@ h2, h3 {
     color: #333;
 }
 
+h3::before {
+    content: "サブタイトル: ";
+    color: #666;
+    display: block;
+    font-size: 0.9em;
+}
+
 img {
     border-radius: 10px;
     display: block;
